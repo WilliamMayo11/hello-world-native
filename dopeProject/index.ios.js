@@ -1,12 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
 
 import React, { Component } from 'react';
 import {
   AppRegistry,
+  NavigationExperimental,
   StyleSheet,
   Text,
   View
@@ -20,7 +16,7 @@ export default class dopeProject extends Component {
           Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          Hello World - This will be a dope project.
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
